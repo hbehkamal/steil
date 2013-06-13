@@ -22,6 +22,10 @@
             display : 'none'
           });
         });
+        slide.eq(curslide).css({
+          display : 'block'
+        });
+        slide.eq(curslide).animate({opacity : '1'},300);
       },600);
     });
   });
