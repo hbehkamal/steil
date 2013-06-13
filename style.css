@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+	padding: 0;
+}
+html,body,.container{
+	width: 100%;
+	height: 100%;
+}
+menu{
+	width: 600px;
+	height: 70px;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav menu li{
+	float: left;	
+	margin: 0 25px 25px 25px;
+	line-height: 65px;
+}
+.nav menu li a{
+	text-decoration: none;
+	color: #494949;
+	display: block;
+	padding: 0;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.nav menu li a:hover{
+	color: #0073b1
+}
+section{
+	position: relative;
+	width: 1350px;
+	height: 600px;
+}
+.slide div{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1350px;
+	height: 800px;
+	background-repeat: no-repeat;
+}
+
+#pic1{
+	background-image: url('1.jpg');
+  background-color : red;
+	opacity: 1;
+	display: block;
+}
+#pic2{
+	background-image: url('2.jpg');
+  background-color : blue;
+	opacity: 0;
+	display: none;
+}
+#pic3{
+	background-image: url('3.jpg');
+  background-color : green;
+	opacity: 0;
+	display: none;
+}
+#pic4{
+	background-image: url('4.jpg');
+  background-color : magenta;
+	opacity: 0;
+	display: none;
+}
+#pic5{
+	background-image: url('5.jpg');
+  background-color : orange;
+	opacity: 0;
+	display: none;
+}
+.logo{
+	position: absolute;
+	width: 760px;
+	height: 50px;
+	top: 550px;
+	left: 335px;
+	z-index: 1000;
+}
+.logo figure{
+	width: 150px;
+	height: 50px;
+	float: left;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+	cursor: pointer;
+  border: 1px solid black;
+}
+#a{
+	background-image: url('a.png');
+	opacity: 1;
+}
+#b{
+	background-image: url('b.png');
+	opacity: 0.5;
+}
+#c{
+	background-image: url('c.png');
+	opacity: 0.5;
+}
+#d{
+	background-image: url('d.png');
+	opacity: 0.5;
+}
+#e{
+	background-image: url('e.png');
+	opacity: 0.5;
+}
+#b:hover{
+	opacity: 1;
+}
+#c:hover{
+	opacity: 1;
+}
+#d:hover{
+	opacity: 1;
+}
+#e:hover{
+	opacity: 1;
+}
+.top-logo{
+	width: 75px;
+	height: 60px;
+	display: inline-block;
+	-webkit-background-size: 50px 100px;
+	background-position: 0px 5px;
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5px;
+	left: 307px;
+	border-right: 1px dotted gray;
+	-webkit-transition: all 400ms;
+	-moz-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	transition: all 400ms;
+	overflow: hidden;
+	cursor: pointer;
+}
+.top-logo:hover{
+	background-position: 0 -50px;
+}
